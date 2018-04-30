@@ -1,0 +1,134 @@
+body {
+	background:RGB(50,50,100);
+}
+#slideshow{
+	margin-left:15%;
+	width:70%;
+	position:relative;
+}
+.slide-arrow{
+	bottom: 50%;
+	background-color:RGBa(255,255,255,60%);
+	border-width: 0px;
+	z-index:2;
+	position:absolute;
+	font-size:3em;
+	width:auto;
+}
+.slide-arrow:hover{
+	background-color:RGBa(255,255,255,80%);
+	cursor: pointer;
+
+}
+.slide{
+	width:100%;
+	z-index:auto;
+	position:relative;
+	display:none;
+
+}
+#arrow-left{left:0%;}
+#arrow-right{right:0%;}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.desc {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px 8px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  text-align:justify;
+  background-color:RGBa(0,0,0,70%);
+}
+.navbar-brand a{
+	top:20px;
+    color:RGB(0,100,160);
+}
+.navbar-brand a:hover{
+	text-decoration: none;
+	color:RGB(0,100,200);
+}
+.container{
+	margin-left:5px;
+	margin-right:5px;
+}
+#header-nav{
+	background:RGB(255,255,255);
+}
+#logo-img {
+	background-image:url('../Imagenes/Kent-logo_large.png');
+    background-repeat: no-repeat;
+	width:156px;
+	height:146px;
+	margin: 10px 15px 10px 0;
+}
+@media(min-width:993px) and (max-width:1023px){
+	.slide-arrow{
+		font-size:2em;
+	}
+	#logo-img {
+		background-image:url('../Imagenes/Kent-logo_medium.png');
+		width:102px;
+		height:96px;
+	}
+	.desc{
+		font-size: 0.76em;
+	}
+    h2{
+		font-size: 1.53rem;
+	}
+	h1{
+		font-size: 2.3rem;
+	}
+}
+@media(max-width:992px) and (min-width:766px){
+	.slide-arrow{
+		font-size:1em;
+	}
+	.desc{
+		font-size: 0.6em;
+	}
+	h2{
+		font-size: 1.2rem;
+	}
+	h1{
+		font-size: 1.8rem;
+	}
+	#logo-img {
+		background-image:url('../Imagenes/Kent-logo_mini.png');
+		width:51px;
+		height:48px;
+	}
+}
+@media(max-width:765px){
+	.desc{
+		font-size: 0.43em;
+	}
+	h2{
+		font-size: 0.86rem;
+	}
+	h1{
+		font-size: 1.3rem;
+	}
+
+}
