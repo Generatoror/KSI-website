@@ -56,4 +56,6 @@ for (var i = 0; i<dropBtns.length;i++){
 }
 for (var i = 0; i<dropBtns.length;i++){
   dropBtns[i].addEventListener('click',btnFuncs[i],false);
+
 }
+
