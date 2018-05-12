@@ -72,6 +72,9 @@ body {
  	-webkit-animation: desc 15s linear infinite;
  	animation: desc 15s linear infinite;
 }
+.desc a{
+	color:white;
+}
 
 @keyframes desc{
  0%   { 
@@ -117,6 +120,7 @@ body {
 	transition: background-color 0.8s ease;
 	border-width: 0px;
 	font-size: 1.5em;
+	margin:0px;
 }
 .dropdown-button:hover{
 	background-color: #CCCCCC;
@@ -168,6 +172,7 @@ body {
 	.desc{
 		font-size: 0.6em;
 	}
+	
 	h2{
 		font-size: 1.2rem;
 	}

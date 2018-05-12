@@ -42,20 +42,3 @@ for (var j = 0;j<slides.length;j++){
     dots[j].addEventListener("click", funcsDot[j]);
 }
 
-function open(id){
-  document.getElementById(id).classList.toggle('d-none');
-}
-
-var dropBtns = document.getElementsByClassName('dropdown-button');
-var dropLists = document.getElementsByClassName('dropdown-itemlist');
-var btnFuncs =[];
-
-for (var i = 0; i<dropBtns.length;i++){
-  btnFuncs[i]=open.bind(this, dropLists[i].id);
-
-}
-for (var i = 0; i<dropBtns.length;i++){
-  dropBtns[i].addEventListener('click',btnFuncs[i],false);
-
-}
-
