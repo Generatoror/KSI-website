@@ -6,6 +6,11 @@ body {
 	width:70%;
 	position:relative;
 }
+#noticias{
+	left.10%;
+	width:80%;
+	
+}
 .slide-arrow{
 	bottom: 50%;
 	background-color:RGBa(255,255,255,60%);
