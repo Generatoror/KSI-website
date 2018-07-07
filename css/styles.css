@@ -68,6 +68,8 @@ body {
   top: 0;
 }
 
+#main-content{padding:3%;}
+
 .dot {
   cursor: pointer;
   height: 15px;
