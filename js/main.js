@@ -1,5 +1,8 @@
 
 
+(function (global) {
+
+
 function open(id){
   document.getElementById(id).classList.toggle('d-none');
 }
@@ -30,3 +33,4 @@ for (var i = 0; i<dropBtns.length;i++){
 for (var i = 0; i<dropBtns.length;i++){
   dropLists[i].addEventListener('mouseleave',outFuncs[i]);
 }
+})(window)

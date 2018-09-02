@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html id = "KSI">
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>KSI Kent Space Institute</title>
+
+  <link rel="stylesheet" href="open-iconic-master/font/css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+ 
+ </head>
+ <body>
+  <header>
+    <nav id ="header-nav" class ="navbar navbar-default navbar-expand-lg ">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="indexB.html" class="float-left d-none d-md-block">
+           <div id="logo-img" alt="logo image"></div>
+          </a>
+     	  <div class="navbar-brand">
+      	 <a href="indexB.html"><h1>Kent Space Institute</h1></a>
+        </div>
+        <div id ="dropdown-menu">
+          <button class = "dropdown-button" id = "areasBn">Áreas</button>
+          <div class="dropdown-itemlist d-none" id ="areasList">
+            <a class = "dropdown-item" onclick="$dc.loadInfoPage('snippets/tierra.html',true);">Tierra</a>
+            <a class = "dropdown-item" onclick="$dc.loadInfoPage('snippets/viaje.html',true);"">Viaje</a>
+            <a class = "dropdown-item" onclick="$dc.loadInfoPage('snippets/mars.html',true);">Marte</a>
+          </div>
+          <button class = "dropdown-button" id = "infoBtn">Info</button>
+          <div class="dropdown-itemlist d-none" id ="infoList">
+            <a class = "dropdown-item" onclick="$dc.loadInfoPage('snippets/historia.html');">Historia</a>
+            <a class = "dropdown-item" onclick="$dc.loadInfoPage('snippets/objetivo.html');">Objetivo</a>
+            <a class = "dropdown-item" onclick="$dc.loadInfoPage('snippets/bibliografia.html');">Bibliografía</a>
+          </div>
+          <button class = "dropdown-button" id = "interBtn">Interactivo</button>
+          <div class="dropdown-itemlist d-none" id ="interList">
+            <a class = "dropdown-item" href="SpaceSimPJS.html">Viaje</a>
+            <a class = "dropdown-item" href="dronesPJS.html">Exploración</a>
+            <a class = "dropdown-item" href="http://acidome.ru/lab/calc/#1/2_Piped_D108_2V_R4.2_beams_150x50">Domo</a>
+            <a class = "dropdown-item" href="https://celestia.space/">Celestia</a>
+         </div>
+        </div>
+       </div>
+     </div>
+    </nav>
+  </header>
+  <div id="main-content">
+	
+  </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/mainB.js"></script>
+
+</html>
