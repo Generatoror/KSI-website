@@ -3,13 +3,13 @@
 
 var dc = {};
 
-const mainHtml = "snippets/main.html";
-const marteHtml = "snippets/mars.html";
-const biblioHtml = "snippets/bibliografia.html";
-const historiaHtml = "snippets/historia.html";
-const objetivoHtml = "snippets/objetivo.html";
-const tierraHtml = "snippets/tierra.html";
-const viajeHtml = "snippets/viaje.html";
+const mainHtml = "Snippets/main.html";
+const marteHtml = "Snippets/mars.html";
+const biblioHtml = "Snippets/bibliografia.html";
+const historiaHtml = "Snippets/historia.html";
+const objetivoHtml = "Snippets/objetivo.html";
+const tierraHtml = "Snippets/tierra.html";
+const viajeHtml = "Snippets/viaje.html";
 
 
 const insertHtml = function (selector, html,code) {
